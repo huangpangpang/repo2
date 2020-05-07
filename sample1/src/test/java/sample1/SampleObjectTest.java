@@ -1,8 +1,11 @@
 package sample1;
 
+import org.junit.jupiter.api.Test;
+
 public class SampleObjectTest {
-	public static void main(String [] args) throws Exception{
+	@Test
+	public void testPring(){
 		SampleObject so = new SampleObject();
-		so.print("Hello World1");
+		so.print("Hello World!");
 	}
 }
